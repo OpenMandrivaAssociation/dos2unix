@@ -45,10 +45,4 @@ mv %{buildroot}%{_docdir}/%{name}-%{version}/ %{buildroot}%{_docdir}/%{name}
 %{_bindir}/mac2unix
 %{_bindir}/unix2mac
 %{_mandir}/man1/*.1*
-%{_mandir}/es/man1/*.1*
-%{_mandir}/de/man1/*.1*
-%{_mandir}/uk/man1/*.1*
-%{_mandir}/fr/man1/*.1*
-%{_mandir}/pl/man1/*.1*
-%{_mandir}/pt_BR/man1/*.1*
-%{_mandir}/nl/man1/*.1*
+%{_mandir}/*/man1/*.1*
