@@ -1,7 +1,7 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
 Name:		dos2unix
-Version:	7.3
-Release:	5
+Version:	7.4.0
+Release:	1
 License:	BSD
 Group:		Text tools
 Url:		http://waterlan.home.xs4all.nl/dos2unix.html
@@ -52,3 +52,5 @@ mv %{buildroot}%{_docdir}/%{name}-%{version}/ %{buildroot}%{_docdir}/%{name}
 %{_mandir}/pl/man1/*.1*
 %{_mandir}/pt_BR/man1/*.1*
 %{_mandir}/nl/man1/*.1*
+%{_mandir}/sv/man1/*.1*
+%{_mandir}/zh_CN/man1/*.1*
