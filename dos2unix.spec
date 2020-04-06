@@ -11,6 +11,7 @@ BuildRequires:	perl-devel
 Provides:	unix2dos = %{EVRD}
 Provides:	mac2unix = %{EVRD}
 Provides:	unix2mac = %{EVRD}
+#
 
 %description
 A filter used to convert DOS-style EOLs to UNIX-style EOLs and vice
