@@ -1,7 +1,7 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
 Name:		dos2unix
 Version:	7.4.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Text tools
 Url:		http://waterlan.home.xs4all.nl/dos2unix.html
@@ -32,7 +32,7 @@ Internationalization has been added and ports to various OS have been made.
 %make CC=%{__cc}
 
 %install
-%makeinstall_std
+%make_install
 
 # doc is installed two times in doc dir
 mv %{buildroot}%{_docdir}/%{name}-%{version}/ %{buildroot}%{_docdir}/%{name}
