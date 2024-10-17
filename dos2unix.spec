@@ -4,7 +4,7 @@ Version:	7.5.2
 Release:	1
 License:	BSD
 Group:		Text tools
-Url:		http://waterlan.home.xs4all.nl/dos2unix.html
+Url:		https://waterlan.home.xs4all.nl/dos2unix.html
 Source0:	http://waterlan.home.xs4all.nl/dos2unix/%{name}-%{version}.tar.gz
 BuildRequires:	gettext
 BuildRequires:	perl-devel
