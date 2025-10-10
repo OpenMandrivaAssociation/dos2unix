@@ -1,7 +1,7 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
 Name:		dos2unix
 Version:	7.5.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Text tools
 Url:		https://waterlan.home.xs4all.nl/dos2unix.html
@@ -11,6 +11,9 @@ BuildRequires:	perl-devel
 Provides:	unix2dos = %{EVRD}
 Provides:	mac2unix = %{EVRD}
 Provides:	unix2mac = %{EVRD}
+Obsoletes:	unix2dos < %{EVRD}
+Obsoletes:	mac2unix < %{EVRD}
+Obsoletes:	unix2mac < %{EVRD}
 #
 
 %description
