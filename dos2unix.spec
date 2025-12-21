@@ -6,6 +6,7 @@ License:	BSD
 Group:		Text tools
 Url:		https://waterlan.home.xs4all.nl/dos2unix.html
 Source0:	http://waterlan.home.xs4all.nl/dos2unix/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	gettext
 BuildRequires:	perl-devel
 Provides:	unix2dos = %{EVRD}
