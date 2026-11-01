@@ -1,11 +1,11 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
 Name:		dos2unix
-Version:	7.5.5
+Version:	7.5.7
 Release:	1
 License:	BSD
 Group:		Text tools
-Url:		https://waterlan.home.xs4all.nl/dos2unix.html
-Source0:	http://waterlan.home.xs4all.nl/dos2unix/%{name}-%{version}.tar.gz
+Url:		https://waterlander.net/dos2unix/
+Source0:	https://downloads.sourceforge.net/project/dos2unix/dos2unix/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	make
 BuildRequires:	gettext
 BuildRequires:	perl-devel
